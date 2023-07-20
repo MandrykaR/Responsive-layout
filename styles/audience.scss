@@ -1,22 +1,11 @@
-.audiences {
-    @include for-large-up {
-        display: flex;
+.audience {
+    background: #00a2c683;
+
+    &__visitors {
+        text-align: center;
     }
 
-    &__wheel{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    &__image{
-        max-width: 290px;
-    }
-}
-
-.inbox {
     &__subtitle {
-        color: #F1592B;
         font-size: 22px;
         font-weight: 700;
         line-height: 34px;
@@ -35,5 +24,12 @@
         font-size: 24px;
         font-weight: 400;
         line-height: 34px;
+
+        margin-bottom: 30px;
+    }
+
+    &__button-more {
+        max-width: 100%;
+        background-color: #fff;
     }
 }
