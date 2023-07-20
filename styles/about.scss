@@ -11,30 +11,28 @@
 }
 
 .article {
+
+  @include for-large-up {
+    width: 555px;
+  }
+
   &:last-child {
     margin-top: 20px;
+
+    @include for-large-up {
+        margin-top: 0;
+    }
   }
+
   &__title {
     margin-bottom: 6px;
     font-size: 22px;
     font-weight: 700;
     line-height: 32px;
   }
-  
+
   &__text {
     font-size: 22px;
     line-height: 32px;
-  }
-}
-
-
-@media screen and (min-width: 400px) {
-  .article {
-    width: 555px;
-  }
-
-  .article:last-child {
-    margin-top: 0;
-
   }
 }
