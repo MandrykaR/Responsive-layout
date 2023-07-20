@@ -1,0 +1,39 @@
+.audiences {
+    @include for-large-up {
+        display: flex;
+    }
+
+    &__wheel{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__image{
+        max-width: 290px;
+    }
+}
+
+.inbox {
+    &__subtitle {
+        color: #F1592B;
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 34px;
+    }
+
+    &__title {
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: -0.357px;
+
+        margin: 17px 0 18px 0;
+    }
+
+    &__description {
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 34px;
+    }
+}

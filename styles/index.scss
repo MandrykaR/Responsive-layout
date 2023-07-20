@@ -1,6 +1,9 @@
 @import 'breakpoints.scss';
 @import 'variables.scss';
 
+@import 'reset.scss';
+@import 'audiences.scss';
+@import 'order.scss';
 @import 'header.scss';
 @import 'headline.scss';
 @import 'about.scss';
@@ -9,101 +12,27 @@
 @import 'footer.scss';
 @import 'tips.scss';
 
-* {
-  box-sizing: border-box;
-}
-
-html,
-body {
-  color: #2b292d;
-
-  font-family: "Work Sans", sans-serif;
-  height: 100vh;
-}
-
-h1,
-h2,
-h3,
-h4,
-p {
-  margin: 0;
-  padding: 0;
-}
-
-figure {
-  margin: 0;
-}
-
-.hide_desktop {
-  @include for-large-up {
-    display: none;
-  }
-}
-
-
-.hide_mobile {
-  @include for-large-down {
-    display: none;
-  }
-}
-
-
-.action-button {
-  width: 160px;
-  height: 48px;
-
-  color: #fff;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 13px;
-
-  background: linear-gradient(180deg,
-      rgba(255, 255, 255, 0.05) 0%,
-      rgba(255, 255, 255, 0) 100%),
-    #3040c4;
-  box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.1) inset;
-  border-radius: 2px;
-}
-
-ul,
-li {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-button {
-  border: none;
-  cursor: pointer;
-  margin: 0;
-  padding: 0;
-}
-
 /* _____________________________________ */
 
 .page {
   width: 100%;
-  overflow-x: hidden;
+
+  @include for-large-up {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+    max-width: 1400px;
+    margin: auto;
+  }
+
 }
 
 .top-section {
   background-color: #f3c6bd;
   flex: 1 1 auto;
-}
 
-/*  MEDIA */
-
-@media screen and (min-width: 400px) {
-  .page {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-
-    width: 1400px;
-    margin: auto;
-  }
-
-  .top-section {
+  @include for-large-up {
     background-color: #f3c6bd;
     padding-top: 39px;
   }
