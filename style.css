@@ -66,10 +66,25 @@ button {
 }
 
 .audience {
-  background: rgba(0, 162, 198, 0.5137254902);
+  padding: 50px 15px;
+  background: rgb(0, 161, 198);
+}
+@media screen and (min-width: 1400px) {
+  .audience {
+    padding: 108px 0 110px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
 .audience__visitors {
   text-align: center;
+}
+@media screen and (min-width: 1400px) {
+  .audience__visitors {
+    max-width: 555px;
+  }
 }
 .audience__subtitle {
   font-size: 22px;
@@ -83,15 +98,104 @@ button {
   letter-spacing: -0.357px;
   margin: 17px 0 18px 0;
 }
+@media screen and (min-width: 1400px) {
+  .audience__title {
+    font-size: 56px;
+    line-height: 56px;
+    letter-spacing: -0.5px;
+    margin: 24px 0 30px 0;
+  }
+}
 .audience__description {
   font-size: 24px;
   font-weight: 400;
   line-height: 34px;
   margin-bottom: 30px;
 }
+@media screen and (min-width: 1400px) {
+  .audience__description {
+    margin-bottom: 34px;
+  }
+}
+.audience__button {
+  width: 100%;
+  margin-bottom: 12px;
+}
+@media screen and (min-width: 1400px) {
+  .audience__button {
+    margin-bottom: 0;
+    margin-right: 5px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .audience__button {
+    width: 160px;
+  }
+}
 .audience__button-more {
   max-width: 100%;
   background-color: #fff;
+  padding: 17px 94px 18px 95px;
+  color: #000;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 13px;
+}
+@media screen and (min-width: 1400px) {
+  .audience__button-more {
+    padding: 17px 28px 18px 29px;
+  }
+}
+
+.user {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 40px;
+}
+@media screen and (min-width: 1400px) {
+  .user {
+    margin-top: 111px;
+    flex-direction: row;
+  }
+}
+.user__item {
+  padding: 22px 76px 33px;
+  background-color: #fff;
+  max-width: 290px;
+  box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.05), 0px 1px 3px 0px rgba(0, 0, 0, 0.1), 0px 1px 0px 0px rgba(255, 255, 255, 0.1) inset;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+.user__item:hover {
+  background: #3141C5;
+  color: #fff;
+  transition: 0.4s;
+}
+.user__item__icon img {
+  max-width: 160px;
+}
+.user__item:last-child {
+  margin-bottom: 0;
+}
+@media screen and (min-width: 1400px) {
+  .user__item:last-child {
+    margin-right: 0;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .user__item {
+    margin-bottom: 0;
+    margin-right: 30px;
+    align-items: center;
+  }
+}
+.user__text {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: center;
 }
 
 .inbox {
