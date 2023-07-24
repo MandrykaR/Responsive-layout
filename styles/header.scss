@@ -99,6 +99,7 @@
   }
 
   &__item {
+    position: relative;
     cursor: pointer;
     color: #2b292d;
     text-decoration: none;
@@ -119,6 +120,12 @@
     display: inline-block;
     width: 8px;
     height: 5px;
-    background-image: url(./img/Arrow.png);
+  }
+
+  &__arrow::after {
+    content: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/arrow.png');
+    position: absolute;
+    bottom: 0;
+    right: 0;
   }
 }
