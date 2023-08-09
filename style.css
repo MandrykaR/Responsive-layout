@@ -5,7 +5,7 @@
 html,
 body {
   color: #2b292d;
-  font-family: "Work Sans", sans-serif;
+  font-family: 'Work Sans', sans-serif;
   height: 100vh;
 }
 
@@ -46,7 +46,12 @@ img {
   font-size: 18px;
   font-weight: 700;
   line-height: 13px;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0) 100%), #3040c4;
+  background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.05) 0%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    #3040c4;
   box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.1) inset;
   border-radius: 2px;
 }
@@ -92,6 +97,7 @@ button {
   line-height: 34px;
 }
 .audience__title {
+  text-align: center;
   font-size: 40px;
   font-weight: 700;
   line-height: 40px;
@@ -160,16 +166,18 @@ button {
   }
 }
 .user__item {
-  padding: 22px 76px 33px;
+  padding: 22px 76px 0;
   background-color: #fff;
   max-width: 290px;
-  box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.05), 0px 1px 3px 0px rgba(0, 0, 0, 0.1), 0px 1px 0px 0px rgba(255, 255, 255, 0.1) inset;
+  box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.05),
+    0px 1px 3px 0px rgba(0, 0, 0, 0.1),
+    0px 1px 0px 0px rgba(255, 255, 255, 0.1) inset;
   border-radius: 8px;
   cursor: pointer;
   margin-bottom: 15px;
 }
 .user__item:hover {
-  background: #3141C5;
+  background: #3141c5;
   color: #fff;
   transition: 0.4s;
 }
@@ -193,7 +201,8 @@ button {
   }
 }
 .user__text {
-  margin-top: 12px;
+  margin-top: 22px;
+  margin-bottom: 29px;
 }
 .user__name {
   font-size: 22px;
@@ -204,7 +213,7 @@ button {
 
 .inbox {
   max-width: 1400px;
-  background-color: #FCF0E3;
+  background-color: #fcf0e3;
 }
 @media screen and (min-width: 1400px) {
   .inbox {
@@ -252,7 +261,7 @@ button {
   }
 }
 .team__subtitle {
-  color: #F1592B;
+  color: #f1592b;
   font-size: 22px;
   font-weight: 700;
   line-height: 34px;
@@ -285,11 +294,11 @@ button {
   }
 }
 .team__line {
-  border-top: 4px solid #0185D0;
+  border-top: 4px solid #0185d0;
 }
 
 .reviews {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.1) inset;
   margin-top: 30px;
   padding: 30px 17px;
@@ -330,7 +339,7 @@ button {
 
 .order {
   padding: 50px 15px;
-  background-color: #F4F5F7;
+  background-color: #f4f5f7;
 }
 @media screen and (min-width: 1400px) {
   .order {
@@ -389,7 +398,7 @@ button {
 .order__email {
   border-radius: 2px;
   border: 1px solid rgba(43, 41, 45, 0.2);
-  background: #FFF;
+  background: #fff;
   width: 100%;
   height: 48px;
   text-align: center;
@@ -397,7 +406,7 @@ button {
   line-height: 13px;
 }
 .order__email::placeholder {
-  color: #2B292D;
+  color: #2b292d;
 }
 @media screen and (max-width: 1399px) {
   .order__button {
@@ -421,7 +430,7 @@ button {
   margin-top: 10px;
 }
 .order__terms-link {
-  color: #3142C6;
+  color: #3142c6;
   font-size: 14px;
   font-weight: 400;
   line-height: 22px;
@@ -470,7 +479,7 @@ button {
   display: inline-block;
   width: 18px;
   height: 13px;
-  background: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-hamburger.png");
+  background: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-hamburger.png');
 }
 
 /* LOGO */
@@ -542,7 +551,7 @@ button {
   height: 5px;
 }
 .navigation__arrow::after {
-  content: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/arrow.png");
+  content: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/arrow.png');
   position: absolute;
   bottom: 0;
   right: 0;
@@ -790,7 +799,7 @@ button {
   font-size: 18px;
   font-weight: 400;
   line-height: 26px;
-  border-bottom: 3px solid #3142C6;
+  border-bottom: 3px solid #3142c6;
   padding-bottom: 20px;
 }
 .features__advantage-item {
