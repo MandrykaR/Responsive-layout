@@ -562,7 +562,7 @@ button {
   }
 }
 .headline__content {
-  margin: 35px 15px 33px 15px;
+  margin: 0px -1px 33px;
   z-index: 1;
 }
 @media screen and (min-width: 1400px) {
@@ -579,7 +579,7 @@ button {
   .headline__bunner {
     width: 796px;
     position: relative;
-    right: -109px;
+    right: -106px;
     top: 0;
     margin-left: auto;
   }
