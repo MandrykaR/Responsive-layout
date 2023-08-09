@@ -89,10 +89,12 @@
     justify-content: center;
     flex-direction: column;
     margin-top: 40px;
+    align-items: center;
 
     @include for-large-up {
         margin-top: 111px;
         flex-direction: row;
+        align-items: normal;
     }
 
     &__item {
@@ -104,11 +106,23 @@
         cursor: pointer;
         margin-bottom: 15px;
 
-        &:hover {
+
+        &:active {
             background: #3141C5;
             color: #fff;
             transition: .4s;
         }
+
+        @include for-large-up {
+            &:hover {
+                background: #3141C5;
+                color: #fff;
+                transition: .4s;
+            }
+        }
+
+
+
 
         &__icon img {
             max-width: 160px;

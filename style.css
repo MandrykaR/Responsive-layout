@@ -152,11 +152,13 @@ button {
   justify-content: center;
   flex-direction: column;
   margin-top: 40px;
+  align-items: center;
 }
 @media screen and (min-width: 1400px) {
   .user {
     margin-top: 111px;
     flex-direction: row;
+    align-items: normal;
   }
 }
 .user__item {
@@ -168,10 +170,17 @@ button {
   cursor: pointer;
   margin-bottom: 15px;
 }
-.user__item:hover {
+.user__item:active {
   background: #3141C5;
   color: #fff;
   transition: 0.4s;
+}
+@media screen and (min-width: 1400px) {
+  .user__item:hover {
+    background: #3141C5;
+    color: #fff;
+    transition: 0.4s;
+  }
 }
 .user__item__icon img {
   max-width: 160px;
