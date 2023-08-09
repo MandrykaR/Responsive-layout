@@ -5,7 +5,7 @@
 html,
 body {
   color: #2b292d;
-  font-family: 'Work Sans', sans-serif;
+  font-family: "Work Sans", sans-serif;
   height: 100vh;
 }
 
@@ -46,12 +46,7 @@ img {
   font-size: 18px;
   font-weight: 700;
   line-height: 13px;
-  background: linear-gradient(
-      180deg,
-      rgba(255, 255, 255, 0.05) 0%,
-      rgba(255, 255, 255, 0) 100%
-    ),
-    #3040c4;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0) 100%), #3040c4;
   box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.1) inset;
   border-radius: 2px;
 }
@@ -97,7 +92,6 @@ button {
   line-height: 34px;
 }
 .audience__title {
-  text-align: center;
   font-size: 40px;
   font-weight: 700;
   line-height: 40px;
@@ -166,18 +160,16 @@ button {
   }
 }
 .user__item {
-  padding: 22px 76px 0;
+  padding: 22px 76px 33px;
   background-color: #fff;
-  max-width: 290px;
-  box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.05),
-    0px 1px 3px 0px rgba(0, 0, 0, 0.1),
-    0px 1px 0px 0px rgba(255, 255, 255, 0.1) inset;
+  max-width: 262px;
+  box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.05), 0px 1px 3px 0px rgba(0, 0, 0, 0.1), 0px 1px 0px 0px rgba(255, 255, 255, 0.1) inset;
   border-radius: 8px;
   cursor: pointer;
   margin-bottom: 15px;
 }
 .user__item:hover {
-  background: #3141c5;
+  background: #3141C5;
   color: #fff;
   transition: 0.4s;
 }
@@ -201,8 +193,7 @@ button {
   }
 }
 .user__text {
-  margin-top: 22px;
-  margin-bottom: 29px;
+  margin-top: 12px;
 }
 .user__name {
   font-size: 22px;
@@ -213,7 +204,7 @@ button {
 
 .inbox {
   max-width: 1400px;
-  background-color: #fcf0e3;
+  background-color: #FCF0E3;
 }
 @media screen and (min-width: 1400px) {
   .inbox {
@@ -261,7 +252,7 @@ button {
   }
 }
 .team__subtitle {
-  color: #f1592b;
+  color: #F1592B;
   font-size: 22px;
   font-weight: 700;
   line-height: 34px;
@@ -294,11 +285,11 @@ button {
   }
 }
 .team__line {
-  border-top: 4px solid #0185d0;
+  border-top: 4px solid #0185D0;
 }
 
 .reviews {
-  background-color: #ffffff;
+  background-color: #FFFFFF;
   box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.1) inset;
   margin-top: 30px;
   padding: 30px 17px;
@@ -339,7 +330,7 @@ button {
 
 .order {
   padding: 50px 15px;
-  background-color: #f4f5f7;
+  background-color: #F4F5F7;
 }
 @media screen and (min-width: 1400px) {
   .order {
@@ -398,7 +389,7 @@ button {
 .order__email {
   border-radius: 2px;
   border: 1px solid rgba(43, 41, 45, 0.2);
-  background: #fff;
+  background: #FFF;
   width: 100%;
   height: 48px;
   text-align: center;
@@ -406,7 +397,7 @@ button {
   line-height: 13px;
 }
 .order__email::placeholder {
-  color: #2b292d;
+  color: #2B292D;
 }
 @media screen and (max-width: 1399px) {
   .order__button {
@@ -430,7 +421,7 @@ button {
   margin-top: 10px;
 }
 .order__terms-link {
-  color: #3142c6;
+  color: #3142C6;
   font-size: 14px;
   font-weight: 400;
   line-height: 22px;
@@ -479,7 +470,7 @@ button {
   display: inline-block;
   width: 18px;
   height: 13px;
-  background: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-hamburger.png');
+  background: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-hamburger.png");
 }
 
 /* LOGO */
@@ -551,7 +542,7 @@ button {
   height: 5px;
 }
 .navigation__arrow::after {
-  content: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/arrow.png');
+  content: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/arrow.png");
   position: absolute;
   bottom: 0;
   right: 0;
@@ -571,10 +562,9 @@ button {
   }
 }
 .headline__content {
-  margin: 0px 15px 9px 0px;
+  margin: 35px 15px 33px 15px;
   z-index: 1;
 }
-
 @media screen and (min-width: 1400px) {
   .headline__content {
     position: absolute;
@@ -589,7 +579,7 @@ button {
   .headline__bunner {
     width: 796px;
     position: relative;
-    right: -106px;
+    right: -109px;
     top: 0;
     margin-left: auto;
   }
@@ -800,7 +790,7 @@ button {
   font-size: 18px;
   font-weight: 400;
   line-height: 26px;
-  border-bottom: 3px solid #3142c6;
+  border-bottom: 3px solid #3142C6;
   padding-bottom: 20px;
 }
 .features__advantage-item {
