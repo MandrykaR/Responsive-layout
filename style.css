@@ -591,6 +591,7 @@ button {
 }
 @media screen and (min-width: 1400px) {
   .headline__content {
+    margin: 0px -1px 33px;
     position: absolute;
     z-index: 1;
   }
@@ -629,7 +630,7 @@ button {
   font-size: 24px;
   font-weight: 400;
   line-height: 34px;
-  margin: 30px 0 34px 0;
+  margin: 24px 0 30px 0;
 }
 @media screen and (min-width: 1400px) {
   .headline__description {
