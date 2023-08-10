@@ -586,7 +586,7 @@ button {
   }
 }
 .headline__content {
-  margin: 0px 15px 33px;
+  margin: 35px 15px 33px;
   z-index: 1;
 }
 @media screen and (min-width: 1400px) {
