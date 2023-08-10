@@ -161,7 +161,7 @@ button {
     align-items: center;
   }
 }
-.user-card__item {
+.user .user-card {
   padding: 22px 76px 33px;
   background-color: #fff;
   width: 290px;
@@ -171,55 +171,55 @@ button {
   margin-bottom: 15px;
 }
 @media screen and (min-width: 1400px) {
-  .user-card__item {
+  .user .user-card {
     max-width: 262px;
     padding: 22px 60px 33px;
   }
 }
-.user-card__item:active {
+.user .user-card:active {
   background: #3141C5;
   color: #fff;
   transition: 0.4s;
 }
 @media screen and (min-width: 1400px) {
-  .user-card__item:hover {
+  .user .user-card:hover {
     background: #3141C5;
     color: #fff;
     transition: 0.4s;
   }
 }
-.user-card__item:last-child {
+.user .user-card:last-child {
   margin-bottom: 0;
 }
 @media screen and (min-width: 1400px) {
-  .user-card__item:last-child {
+  .user .user-card:last-child {
     margin-right: 0;
   }
 }
 @media screen and (min-width: 1400px) {
-  .user-card__item {
+  .user .user-card {
     margin-bottom: 0;
     margin-right: 30px;
     display: flex;
     align-items: end;
   }
 }
-.user-card__dev {
+.user .user-card__dev {
   max-width: 138px;
 }
-.user-card__entertainment {
+.user .user-card__entertainment {
   max-width: 142px;
 }
-.user-card__athletes {
+.user .user-card__athletes {
   max-width: 160px;
 }
-.user-card__creators {
+.user .user-card__creators {
   max-width: 119px;
 }
-.user-card__text {
+.user .user-card__text {
   margin-top: 12px;
 }
-.user-card__name {
+.user .user-card__name {
   font-size: 22px;
   font-weight: 700;
   line-height: 28px;
