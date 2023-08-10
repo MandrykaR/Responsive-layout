@@ -221,7 +221,7 @@ button {
 }
 @media screen and (min-width: 1400px) {
   .user .user-card__text {
-    margin-top: 22px;
+    margin-top: 19px;
   }
 }
 .user .user-card__name {

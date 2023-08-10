@@ -162,8 +162,9 @@
 
         &__text {
             margin-top: 12px;
+
             @include for-large-up {
-                margin-top: 22px;
+                margin-top: 19px;
             }
         }
 
