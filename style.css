@@ -147,7 +147,7 @@ button {
   }
 }
 
-.user-card {
+.user {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -155,7 +155,7 @@ button {
   align-items: center;
 }
 @media screen and (min-width: 1400px) {
-  .user-card {
+  .user {
     margin-top: 111px;
     flex-direction: row;
     align-items: center;

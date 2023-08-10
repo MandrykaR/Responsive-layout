@@ -84,7 +84,7 @@
     }
 }
 
-.user-card {
+.user {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -97,7 +97,7 @@
         align-items: center;
     }
 
-    &__item {
+    &-card__item {
         padding: 22px 76px 33px;
         background-color: #fff;
         width: 290px;
@@ -144,28 +144,28 @@
         }
     }
 
-    &__dev {
+    &-card__dev {
         max-width: 138px;
     }
 
-    &__entertainment {
+    &-card__entertainment {
         max-width: 142px;
     }
 
-    &__athletes {
+    &-card__athletes {
         max-width: 160px;
     }
 
-    &__creators {
+    &-card__creators {
         max-width: 119px;
     }
 
 
-    &__text {
+    &-card__text {
         margin-top: 12px;
     }
 
-    &__name {
+    &-card__name {
         font-size: 22px;
         font-weight: 700;
         line-height: 28px;
