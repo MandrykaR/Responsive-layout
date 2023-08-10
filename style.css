@@ -147,7 +147,7 @@ button {
   }
 }
 
-.user {
+.user-card {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -155,13 +155,13 @@ button {
   align-items: center;
 }
 @media screen and (min-width: 1400px) {
-  .user {
+  .user-card {
     margin-top: 111px;
     flex-direction: row;
     align-items: center;
   }
 }
-.user__item {
+.user-card__item {
   padding: 22px 76px 33px;
   background-color: #fff;
   width: 290px;
@@ -171,55 +171,55 @@ button {
   margin-bottom: 15px;
 }
 @media screen and (min-width: 1400px) {
-  .user__item {
+  .user-card__item {
     max-width: 262px;
     padding: 22px 60px 33px;
   }
 }
-.user__item:active {
+.user-card__item:active {
   background: #3141C5;
   color: #fff;
   transition: 0.4s;
 }
 @media screen and (min-width: 1400px) {
-  .user__item:hover {
+  .user-card__item:hover {
     background: #3141C5;
     color: #fff;
     transition: 0.4s;
   }
 }
-.user__item:last-child {
+.user-card__item:last-child {
   margin-bottom: 0;
 }
 @media screen and (min-width: 1400px) {
-  .user__item:last-child {
+  .user-card__item:last-child {
     margin-right: 0;
   }
 }
 @media screen and (min-width: 1400px) {
-  .user__item {
+  .user-card__item {
     margin-bottom: 0;
     margin-right: 30px;
     display: flex;
     align-items: end;
   }
 }
-.user__dev {
+.user-card__dev {
   max-width: 138px;
 }
-.user__entertainment {
+.user-card__entertainment {
   max-width: 142px;
 }
-.user__athletes {
+.user-card__athletes {
   max-width: 160px;
 }
-.user__creators {
+.user-card__creators {
   max-width: 119px;
 }
-.user__text {
+.user-card__text {
   margin-top: 12px;
 }
-.user__name {
+.user-card__name {
   font-size: 22px;
   font-weight: 700;
   line-height: 28px;
