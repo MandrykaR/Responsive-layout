@@ -219,6 +219,11 @@ button {
 .user .user-card__text {
   margin-top: 12px;
 }
+@media screen and (min-width: 1400px) {
+  .user .user-card__text {
+    margin-top: 22px;
+  }
+}
 .user .user-card__name {
   font-size: 22px;
   font-weight: 700;
