@@ -652,14 +652,17 @@ button {
     margin: 58px 0 0 0;
   }
 }
-@media screen and (max-width: 1399px) {
-  .headline__btn-width {
-    width: 100%;
+.headline__links button {
+  width: 290px;
+  height: 48px;
+}
+@media screen and (min-width: 1400px) {
+  .headline__links button {
+    width: 160px;
+    height: 48px;
   }
 }
 .headline__learn-more-btn {
-  width: 158px;
-  height: 48px;
   margin-top: 15px;
   background-color: rgb(255, 255, 255);
   color: #3040c4;
@@ -667,11 +670,6 @@ button {
   font-weight: 700;
   line-height: 13px;
   border-radius: 2px;
-}
-@media screen and (max-width: 1399px) {
-  .headline__learn-more-btn {
-    width: 100%;
-  }
 }
 @media screen and (min-width: 1400px) {
   .headline__learn-more-btn {
