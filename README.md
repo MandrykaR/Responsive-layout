@@ -1,5 +1,5 @@
 # Responsive-layout
-### [Site link] https://github.com/MandrykaR/Responsive-layout.git
+### [Site link] https://mandrykar.github.io/Responsive-layout/
 
 Layout supports mobile (up-to-400) and desktop (up-to-1400) versions
 
