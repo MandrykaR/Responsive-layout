@@ -133,7 +133,7 @@ button {
   }
 }
 .audience__button-more {
-  max-width: 100%;
+  width: 100%;
   background-color: #fff;
   padding: 17px 94px 18px 95px;
   color: #000;
@@ -143,6 +143,7 @@ button {
 }
 @media screen and (min-width: 1400px) {
   .audience__button-more {
+    width: 158px;
     padding: 17px 28px 18px 29px;
   }
 }
@@ -151,7 +152,7 @@ button {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  margin-top: 40px;
+  margin: 40px 15px;
   align-items: center;
 }
 @media screen and (min-width: 1400px) {
@@ -660,7 +661,7 @@ button {
   }
 }
 .headline__links button {
-  width: 290px;
+  width: 100%;
   height: 48px;
 }
 @media screen and (min-width: 1400px) {

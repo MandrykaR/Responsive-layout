@@ -70,7 +70,7 @@
     }
 
     &__button-more {
-        max-width: 100%;
+        width: 100%;
         background-color: #fff;
         padding: 17px 94px 18px 95px;
         color: #000;
@@ -79,6 +79,7 @@
         line-height: 13px;
 
         @include for-large-up {
+            width: 158px;
             padding: 17px 28px 18px 29px;
         }
     }
@@ -88,7 +89,7 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin-top: 40px;
+    margin: 40px 15px;
     align-items: center;
 
     @include for-large-up {
