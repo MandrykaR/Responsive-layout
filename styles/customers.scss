@@ -28,8 +28,8 @@
     flex-wrap: wrap;
     height: 94px;
     min-width: 107px;
-    border-bottom: 1px solid #e3e3e3;
-    border-right: 1px solid #e3e3e3;
+    border-bottom: 1px solid $bottom-color;
+    border-right: 1px solid $bottom-color;
     flex: 1;
 
     &:last-child {
@@ -45,5 +45,4 @@
     filter: brightness(0);
     max-width: 80%;
   }
-
 }

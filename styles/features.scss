@@ -3,7 +3,7 @@
   display: flex;
 
   @include for-large-down {
-      display: none;
+    display: none;
   }
 
   &__content {
@@ -45,7 +45,7 @@
   }
 
   &__advantage-title {
-    color: #3142c6;
+    color: $text-color-blue;
     font-size: 22px;
     font-weight: 700;
     line-height: 26px;
@@ -58,7 +58,7 @@
     font-weight: 400;
     line-height: 26px;
 
-    border-bottom: 3px solid #3142C6;
+    border-bottom: 3px solid $text-color-blue;
     padding-bottom: 20px;
   }
 
@@ -68,7 +68,7 @@
     font-size: 18px;
     line-height: 26px;
 
-    border-bottom: 1px solid #2b292d26;
+    border-bottom: 1px solid $border-color;
     padding-bottom: 22px;
     margin-top: 21px;
   }
@@ -90,31 +90,9 @@
     position: absolute;
     right: 0;
   }
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* MEDIA */
 
-@media screen and (max-width:399px) {
-
+@media screen and (max-width: 399px) {
 }

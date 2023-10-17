@@ -1,115 +1,107 @@
 .order {
-    padding: 50px 15px;
-    background-color: $color-light;
+  padding: 50px 15px;
+  background-color: $color-light;
+
+  @include for-large-up {
+    display: flex;
+    justify-content: center;
+    padding: 73px 0 72px 0;
+    max-width: 1400px;
+    margin: auto;
+  }
+
+  &__details {
+    max-width: 557px;
 
     @include for-large-up {
-        display: flex;
-        justify-content: center;
-        padding: 73px 0 72px 0;
-        max-width: 1400px;
-        margin: auto;
+      margin-top: 33px;
+    }
+  }
+
+  &__illustration {
+    max-width: 100%;
+
+    @include for-large-up {
+      max-width: 269px;
+      margin-right: 121px;
+    }
+  }
+
+  &__title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -0.25px;
+
+    margin: 40px 0 18px 0;
+
+    @include for-large-up {
+      text-align: left;
+      margin: 0px 0 12px 0;
+    }
+  }
+
+  &__text {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 32px;
+
+    margin-bottom: 40px;
+
+    @include for-large-up {
+      margin-bottom: 26px;
+    }
+  }
+
+  &__form {
+    @include for-large-up {
+      display: flex;
+    }
+  }
+
+  &__email {
+    border-radius: 2px;
+    border: 1px solid $border-color;
+    background: #fff;
+    width: 100%;
+    height: 48px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 13px;
+
+    &::placeholder {
+      color: $color-reset-body;
+    }
+  }
+
+  &__button {
+    @include for-large-down {
+      width: 100%;
+      margin-top: 12px;
     }
 
-    &__details {
-        max-width: 557px;
-
-        @include for-large-up {
-            margin-top: 33px;
-        }
+    @include for-large-up {
+      width: 160px;
+      margin-top: 0px;
+      margin-left: 10px;
+      flex-shrink: 0;
     }
+  }
 
-    &__illustration {
-        max-width: 100%;
+  &__terms {
+    color: $text-color-light-grey;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
 
-        @include for-large-up {
-            max-width: 269px;
-            margin-right: 121px;
-        }
+    margin-top: 10px;
+  }
 
-    }
-
-    &__title {
-        text-align: center;
-        font-size: 40px;
-        font-weight: 700;
-        line-height: 40px;
-        letter-spacing: -0.25px;
-
-        margin: 40px 0 18px 0;
-
-        @include for-large-up {
-            text-align: left;
-            margin: 0px 0 12px 0;
-        }
-    }
-
-    &__text {
-        font-size: 22px;
-        font-weight: 400;
-        line-height: 32px;
-
-        margin-bottom: 40px;
-
-        @include for-large-up {
-            margin-bottom: 26px;
-        }
-    }
-
-
-    &__form {
-        @include for-large-up {
-            display: flex;
-        }
-    }
-
-    &__email {
-        border-radius: 2px;
-        border: 1px solid $border-color;
-        background: #FFF;
-        width: 100%;
-        height: 48px;
-        text-align: center;
-        font-size: 18px;
-        line-height: 13px;
-
-
-
-        &::placeholder {
-            color: #2B292D;
-        }
-
-    }
-
-    &__button {
-        @include for-large-down {
-            width: 100%;
-            margin-top: 12px;
-        }
-
-        @include for-large-up {
-            width: 160px;
-            margin-top: 0px;
-            margin-left: 10px;
-            flex-shrink: 0;
-        }
-    }
-
-
-    &__terms {
-        color: $text-color-light-grey;
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 22px;
-
-        margin-top: 10px;
-    }
-
-    &__terms-link {
-        color: #3142C6;
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 22px;
-    }
-
-
+  &__terms-link {
+    color: $text-color-blue;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+  }
 }

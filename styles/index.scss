@@ -1,7 +1,6 @@
 @import 'breakpoints.scss';
 @import 'variables.scss';
 
-@import 'reset.scss';
 @import 'audience.scss';
 @import 'inbox.scss';
 @import 'order.scss';
@@ -15,6 +14,36 @@
 
 /* _____________________________________ */
 
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  color: $color-reset-body;
+
+  font-family: 'Work Sans', sans-serif;
+  height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+input {
+  margin: 0;
+  padding: 0;
+}
+
+figure {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
 .page {
   width: 100%;
 
@@ -26,15 +55,59 @@
     max-width: 1400px;
     margin: auto;
   }
-
 }
 
 .top-section {
-  background-color: #f3c6bd;
+  background-color: $back-color;
   flex: 1 1 auto;
 
   @include for-large-up {
-    background-color: #f3c6bd;
+    background-color: $back-color;
     padding-top: 39px;
   }
+}
+
+.hide_desktop {
+  @include for-large-up {
+    display: none;
+  }
+}
+
+.hide_mobile {
+  @include for-large-down {
+    display: none;
+  }
+}
+
+.action-button {
+  width: 160px;
+  height: 48px;
+
+  color: $color-white;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 13px;
+
+  background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.05) 0%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    #3040c4;
+  box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.1) inset;
+  border-radius: 2px;
+}
+
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
 }

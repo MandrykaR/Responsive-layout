@@ -1,7 +1,7 @@
 .about {
   padding: 46px 15px;
   width: 100%;
-  background-color: #f4f5f7;
+  background-color: $color-light;
 
   @include for-large-up {
     display: flex;
@@ -11,16 +11,15 @@
 }
 
 .article {
-
   @include for-large-up {
     width: 555px;
   }
 
-  &:last-child {
+  &-last {
     margin-top: 20px;
 
     @include for-large-up {
-        margin-top: 0;
+      margin-top: 0;
     }
   }
 
