@@ -15,13 +15,6 @@
     width: 555px;
   }
 
-  &-last {
-    margin-top: 20px;
-
-    @include for-large-up {
-      margin-top: 0;
-    }
-  }
 
   &__title {
     margin-bottom: 6px;
