@@ -461,8 +461,10 @@
   background: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-hamburger.png");
 }
 
+/* LOGO */
 .logo {
   display: flex;
+  margin-left: 15px;
 }
 .logo__img {
   width: 48px;
@@ -497,6 +499,7 @@
   justify-content: center;
 }
 
+/* NAV */
 .navigation {
   display: none;
   margin: 7px 75px 0 auto;
@@ -575,7 +578,6 @@
   font-weight: 700;
   line-height: 50px;
   letter-spacing: -0.312px;
-  margin: 0 0 0 0;
 }
 @media screen and (min-width: 1400px) {
   .headline__title {
@@ -592,7 +594,7 @@
   font-size: 24px;
   font-weight: 400;
   line-height: 34px;
-  margin: 24px 0 32px 0;
+  margin: 24px 0 30px 0;
 }
 @media screen and (min-width: 1400px) {
   .headline__description {
