@@ -814,7 +814,7 @@
   line-height: 1.5;
   font-size: 18px;
   width: 360px;
-  margin-top: 26px;
+  margin: 26px 0 0 0;
   color: rgba(43, 41, 45, 0.6);
 }
 @media screen and (min-width: 1400px) {
@@ -918,7 +918,7 @@
 }
 @media screen and (min-width: 1400px) {
   .dowloads {
-    margin-top: 25px;
+    margin-top: 36px;
     justify-content: left;
   }
 }
@@ -962,7 +962,7 @@
 .nav-links__list-item {
   color: rgba(43, 41, 45, 0.6);
   font-size: 18px;
-  line-height: 30px;
+  line-height: 35px;
   list-style-type: none;
 }
 

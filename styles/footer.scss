@@ -7,7 +7,7 @@
 		line-height: 1.5;
 		font-size: 18px;
 		width: 360px;
-		margin-top: 26px;
+		margin: 26px 0 0 0;
 		color: $text-color-light-grey;
 
 		@include for-large-up {
@@ -110,7 +110,7 @@
 
 .dowloads {
 	@include for-large-up {
-		margin-top: 25px;
+		margin-top: 36px;
 		justify-content: left;
 	}
 
@@ -159,7 +159,7 @@
 	&__list-item {
 		color: $text-color-light-grey;
 		font-size: 18px;
-		line-height: 30px;
+		line-height: 35px;
 		list-style-type: none;
 	}
 }
