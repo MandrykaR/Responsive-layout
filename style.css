@@ -930,7 +930,7 @@
 }
 @media screen and (min-width: 1400px) {
   .additional-navigation {
-    margin-left: auto;
+    margin-left: 126px;
     flex-direction: row;
   }
 }
@@ -953,10 +953,14 @@
   font-size: 22px;
   font-weight: 700;
 }
+.nav-links__list {
+  padding: 0;
+}
 .nav-links__list-item {
   color: rgba(43, 41, 45, 0.6);
   font-size: 18px;
   line-height: 30px;
+  list-style-type: none;
 }
 
 .logo-footer {
