@@ -416,7 +416,6 @@
   line-height: 22px;
 }
 
-/* HEADER */
 .header {
   display: flex;
   align-items: center;
@@ -1068,7 +1067,7 @@ figure {
   }
 }
 
-.style-reset {
+.style-reset-btn {
   border: none;
   cursor: pointer;
   margin: 0;
