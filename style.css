@@ -544,6 +544,7 @@
 
 .headline {
   width: 100%;
+  padding-bottom: 36px;
 }
 @media screen and (min-width: 1400px) {
   .headline {
@@ -552,6 +553,7 @@
     margin: auto;
     margin-top: 76px;
     display: flex;
+    padding-bottom: 0px;
   }
 }
 .headline__content {
