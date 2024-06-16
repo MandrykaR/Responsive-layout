@@ -4,14 +4,14 @@
 
 	&__description {
 		display: none;
-		line-height: 26px;
+		line-height: 1.5;
 		font-size: 18px;
 		width: 360px;
 		margin-top: 26px;
 		color: $text-color-light-grey;
 
 		@include for-large-up {
-			line-height: 26px;
+			line-height: 1.5;
 			font-size: 18px;
 			display: block;
 			margin-top: 26px;
@@ -33,6 +33,11 @@
 	.logo {
 		@include for-large-down {
 			display: none;
+		}
+
+		&__img {
+			width: 60px;
+			height: auto;
 		}
 	}
 }
@@ -180,12 +185,12 @@
 	&__name {
 		font-size: 20px;
 		font-weight: 700;
-		line-height: 25px;
+		line-height: 1.5;
 	}
 
 	&__description {
 		color: $text-color-light-grey;
 		font-size: 18px;
-		line-height: 25px;
+		line-height: 1.5;
 	}
 }
