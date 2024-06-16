@@ -601,7 +601,7 @@
   font-size: 24px;
   font-weight: 400;
   line-height: 34px;
-  margin: 24px 0 30px 0;
+  margin: 26px 0 30px 0;
 }
 @media screen and (min-width: 1400px) {
   .headline__description {
