@@ -418,7 +418,7 @@
 
 .header {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   height: 64px;
   width: 100%;
   background-color: #fff;
@@ -461,9 +461,10 @@
   background: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-hamburger.png");
 }
 
+/* LOGO */
 .logo {
   display: flex;
-  align-items: center;
+  margin-left: 15px;
 }
 .logo__img {
   width: 48px;
@@ -498,14 +499,14 @@
   justify-content: center;
 }
 
+/* NAV */
 .navigation {
   display: none;
-  margin: 0px 75px 0 auto;
+  margin: 7px 75px 0 auto;
 }
 @media screen and (min-width: 1400px) {
   .navigation {
     display: block;
-    margin-top: 10px;
   }
 }
 .navigation__item {
