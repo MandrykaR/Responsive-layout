@@ -464,6 +464,7 @@
 .logo {
   display: flex;
   align-items: center;
+  margin-top: 8px;
 }
 .logo__img {
   width: 48px;

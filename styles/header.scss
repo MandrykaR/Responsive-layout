@@ -1,6 +1,6 @@
 .header {
 	display: flex;
-	align-items: flex-start;  // Align items to the top
+	align-items: flex-start; // Align items to the top
 
 	height: 64px;
 	width: 100%;
@@ -47,7 +47,7 @@
 .logo {
 	display: flex;
 	align-items: center; // Center align items within the logo container
-
+  margin-top: 8px;
 	&__img {
 		width: 48px;
 		height: 48px;
@@ -68,7 +68,7 @@
 
 	&__description {
 		display: none;
-    opacity: 0.6;
+		opacity: 0.6;
 
 		@include for-large-up {
 			display: block;
@@ -86,11 +86,11 @@
 
 .navigation {
 	display: none;
-	margin: 0px 75px 0 auto; 
+	margin: 0px 75px 0 auto;
 
 	@include for-large-up {
 		display: block;
-		margin-top: 7px; 
+		margin-top: 7px;
 	}
 
 	&__item {
