@@ -1,7 +1,6 @@
 .header {
 	display: flex;
-	align-items: flex-start; // Align items to the top
-
+	align-items: center; // Align items to the center for mobile view
 	height: 64px;
 	width: 100%;
 	background-color: $color-white;
@@ -28,7 +27,6 @@
 		border: none;
 		border-left: 1px solid #00000026;
 		height: 100%;
-		margin-left: auto;
 		background: transparent;
 
 		@include for-large-up {
@@ -47,10 +45,10 @@
 .logo {
 	display: flex;
 	align-items: center;
-	margin-top: 8px;
+	margin-left: 15px;
 
 	@include for-large-up {
-		margin-top: 0px;
+		margin: 0;
 	}
 
 	&__img {
@@ -128,4 +126,13 @@
 		bottom: 0;
 		right: 0;
 	}
+}
+
+.line {
+	display: block;
+	border-left: 1px solid #000;
+	width: 1px;
+	height: 64px;
+	margin-left: auto;
+	opacity: 0.15;
 }
