@@ -1,6 +1,7 @@
 .header {
 	display: flex;
-	align-items: center; // Align items to the center for mobile view
+	align-items: center;
+
 	height: 64px;
 	width: 100%;
 	background-color: $color-white;
@@ -11,6 +12,7 @@
 		height: 62px;
 		margin: auto;
 		background-color: $back-color;
+		align-items: flex-start;
 	}
 
 	&__button {

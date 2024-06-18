@@ -432,6 +432,7 @@
     height: 62px;
     margin: auto;
     background-color: #f3c6bd;
+    align-items: flex-start;
   }
 }
 .header__button {
