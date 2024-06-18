@@ -135,4 +135,7 @@
 	height: 64px;
 	margin-left: auto;
 	opacity: 0.15;
+	@include for-large-up {
+		display: none;
+	}
 }
